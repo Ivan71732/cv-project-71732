@@ -7,7 +7,7 @@ function setGreen() {
 }
 
 function toggleProjects() {
-    let section = document.getElementById("projekty");
+    const section = document.getElementById("projekty");
 
     if (section.style.display === "none") {
         section.style.display = "block";
