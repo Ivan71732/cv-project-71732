@@ -8,10 +8,5 @@ function setGreen() {
 
 function toggleProjects() {
     const section = document.getElementById("projekty");
-
-    if (window.getComputedStyle(section).display === "none") {
-        section.style.display = "block";
-    } else {
-        section.style.display = "none";
-    }
+    section.hidden = !section.hidden;
 }
